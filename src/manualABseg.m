@@ -1,6 +1,6 @@
 %% IMPORT VIDEO FILE (Use this section for Position Correction)
 %Change folder path
-cd([root2 '\videos'])
+cd([root '\videos'])
 % Specify the video file to load
 obj=VideoReader(videoFile); 
 % [obj,path] = uigetfile('*.avi');
